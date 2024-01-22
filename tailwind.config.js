@@ -9,6 +9,10 @@ module.exports = {
         "accent-7": "#333",
         success: "#0070f3",
         cyan: "#79FFE1",
+        "brand-red": "#ac3b24",
+        "brand-blue": "rgb(113, 142, 185)",
+        background: "rgb(113, 142, 185, 0.1)",
+        dark: "#312633",
       },
       fontFamily: {
         sans: ["Helvetica", "Arial", "sans-serif"],
