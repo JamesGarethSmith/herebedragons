@@ -9,7 +9,13 @@ const MoreStories = ({ posts }: Props) => {
   if (!posts || posts.length === 0) {
     return (
       <section>
-        <div className="max-w-2xl mx-auto"></div>
+        <div className="max-w-2xl mx-auto flex items-center justify-center">
+          <img
+            src="/assets/images/dragon.svg"
+            width="100%"
+            className="opacity-5"
+          />
+        </div>
       </section>
     );
   }
